@@ -1,0 +1,43 @@
+body {
+    background-color: lemonchiffon;
+}
+
+#root {
+    margin: auto;
+    max-width: 55vw;
+    text-align: center;
+
+}
+
+.search-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+#search-input {
+    width: 20vw;
+}
+
+button,
+input,
+#characters-wrap {
+    font-size: 16px;
+    color: #066482;
+    padding: 5px 10px;
+    border: 1px solid #0b95c1;
+}
+
+button {
+    width: 15vw;
+    background-color: #92f3d2;
+}
+
+#characters-wrap {
+    margin-bottom: 30px;
+
+}
+
+.hide {
+    display: none;
+}
